@@ -11,7 +11,7 @@
     <Compile Include="Serialization\Enumerator.fs" />
     <Compile Include="Serialization\DecodeExtensions.fs" />
     <Compile Include="Serialization\ReqDHParams.fs" />
-    <Compile Include="Serialization\TlVector.fs" />
+    <Compile Include="Serialization\VectorLong.fs" />
     <Compile Include="Serialization\ResPq.fs" />
     <Compile Include="Serialization\ReqPq.fs" />
     <Compile Include="Serialization\UnencryptedMessage.fs" />
