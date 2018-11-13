@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Types/Int128.fs" />
+    <Compile Include="Bytes/Bytes.fs" />
+    <Compile Include="Bytes/Converter.fs" />
+    <Compile Include="Messages\Messages.fs" />
+    <Compile Include="Serialization\Enumerator.fs" />
+    <Compile Include="Serialization\DecodeExtensions.fs" />
+    <Compile Include="Serialization\EncryptedData.fs" />
+    <Compile Include="Serialization\ReqDHParams.fs" />
+    <Compile Include="Serialization\TlVector.fs" />
+    <Compile Include="Serialization\ResPq.fs" />
+    <Compile Include="Serialization\ReqPq.fs" />
+    <Compile Include="Serialization\UnencryptedMessage.fs" />
+    <Compile Include="TcpClient.fs" />
+    <Compile Include="Random.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
