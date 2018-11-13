@@ -24,5 +24,5 @@ let deserialize byteSeq =
       P = byteSeq |> nextInt64L
       Q = byteSeq |> nextInt64L
       Fingerprint = byteSeq |> nextInt64L
-      EncryptedData = byteSeq |> next 120 }
+      EncryptedData = byteSeq |> next 260 }
     |> ReqDHParams

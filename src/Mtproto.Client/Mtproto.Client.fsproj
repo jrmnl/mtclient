@@ -10,7 +10,6 @@
     <Compile Include="Messages\Messages.fs" />
     <Compile Include="Serialization\Enumerator.fs" />
     <Compile Include="Serialization\DecodeExtensions.fs" />
-    <Compile Include="Serialization\EncryptedData.fs" />
     <Compile Include="Serialization\ReqDHParams.fs" />
     <Compile Include="Serialization\TlVector.fs" />
     <Compile Include="Serialization\ResPq.fs" />

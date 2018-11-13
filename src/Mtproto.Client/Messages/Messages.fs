@@ -2,14 +2,6 @@
 
 open Types
 
-type EncryptedData = 
-    { Pq : bigint
-      P : int64
-      Q : int64
-      Nonce : int128
-      ServerNonce: int128
-      NewNonce : bigint }
-
 type VectorLong = int64[]
 
 type ReqPq = { Nonce: int128 }
